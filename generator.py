@@ -17,8 +17,8 @@ class Randomnumbers():
             raise Exception('Amount must be higher than 0 to generate numbers')
 
         # Check that the lowest range is smaller than the largest
-        if minRange >= maxRange:
-            raise Exception('Minimum range must be lower than maximum range')
+        # if minRange >= maxRange:
+        #     raise Exception('Minimum range must be lower than maximum range')
 
 
         numbers = []
@@ -40,6 +40,8 @@ class Randomnumbers():
         else:
             # Return empty array if amount is not the same as result
             return []
+
+# Changed for the second commit
 
 
 # Instatiate
