@@ -9,12 +9,12 @@ class Randomnumbers():
         # Pre-conditions
 
         # Check that all variables provided are integers
-        if type(amount) != int or type(minRange) != int or type(maxRange) != int:
-            raise Exception('Only integers are accepted')
+        # if type(amount) != int or type(minRange) != int or type(maxRange) != int:
+        #     raise Exception('Only integers are accepted')
 
         # Check that the amount of numbers requested are one or more
-        if amount < 1:
-            raise Exception('Amount must be higher than 0 to generate numbers')
+        # if amount < 1:
+        #     raise Exception('Amount must be higher than 0 to generate numbers')
 
         # Check that the lowest range is smaller than the largest
         # if minRange >= maxRange:
